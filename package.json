@@ -1,0 +1,29 @@
+{
+  "name": "chat-client-challange",
+  "version": "0.0.1",
+  "description": "Basic chat client UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: No test described\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bemindinteractive/chat-client-challange.git"
+  },
+  "keywords": [
+    "chat",
+    "express",
+    "SPA"
+  ],
+  "author": "Your name here",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bemindinteractive/chat-client-challange/issues"
+  },
+  "homepage": "https://github.com/bemindinteractive/chat-client-challange#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chalk": "^1.1.3",
+    "express": "^4.14.0"
+  }
+}
