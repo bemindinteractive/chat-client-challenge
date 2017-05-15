@@ -12,7 +12,7 @@ Dovranno essere utilizzati preprocessori css less o sass, utilizzando pattern OO
 
 Si lascia allo sviluppatore la massima libertà nella disposizione e personalizzazione grafica dei componenti nel caso in cui nessun vincolo sia stato specificato.
 
-Il client dovrà diventare l'interfaccia di queste [API]('https://sleepy-meadow-32722.herokuapp.com/') seguendo le specifiche descritte nel percorso radice.
+Il client dovrà diventare l'interfaccia di queste [API](https://sleepy-meadow-32722.herokuapp.com/) seguendo le specifiche descritte nel percorso radice.
 
 Dovrà essere possibile fare il submit delle credenziali anche premendo il tasto invio.
 
