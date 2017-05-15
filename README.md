@@ -56,11 +56,11 @@ L'applicazione verrà pubblicata automaticamente generando un tag git con nome c
 
 # Wireframes
 
-![alt text](./docs/images/auth.png =250x "Autenticazione")
-![alt text](./docs/images/auth_loading.png =250x "Autenticazione in corso")
-![alt text](./docs/images/profile.png =250x "Profilo")
-![alt text](./docs/images/contact_list.png =250x "Lista contatti")
-![alt text](./docs/images/contact_detail.png =250x "Dettaglio contatto")
+![alt text](./docs/images/auth.png "Autenticazione")
+![alt text](./docs/images/auth_loading.png "Autenticazione in corso")
+![alt text](./docs/images/profile.png "Profilo")
+![alt text](./docs/images/contact_list.png "Lista contatti")
+![alt text](./docs/images/contact_detail.png "Dettaglio contatto")
 
 ## Note
 
