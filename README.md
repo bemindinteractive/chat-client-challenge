@@ -1,6 +1,6 @@
 # Esercizio: client web di messaggistica minimale
 
-L'app dovrà essere una Single Page Application sviluppata React.js.
+L'app dovrà essere una Single Page Application sviluppata in React.js.
 
 Per il controllo di revisione andrà utilizzato git e un pattern a scelta tra git-flow e github-flow (pull requests).
 
