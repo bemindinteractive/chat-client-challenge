@@ -1,5 +1,5 @@
 {
-  "name": "chat-client-challange",
+  "name": "chat-client-challenge",
   "version": "0.0.1",
   "description": "Basic chat client UI",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/bemindinteractive/chat-client-challange.git"
+    "url": "git+ssh://git@github.com/bemindinteractive/chat-client-challenge.git"
   },
   "keywords": [
     "chat",
@@ -18,9 +18,9 @@
   "author": "Your name here",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/bemindinteractive/chat-client-challange/issues"
+    "url": "https://github.com/bemindinteractive/chat-client-challenge/issues"
   },
-  "homepage": "https://github.com/bemindinteractive/chat-client-challange#readme",
+  "homepage": "https://github.com/bemindinteractive/chat-client-challenge#readme",
   "dependencies": {
   }
 }
