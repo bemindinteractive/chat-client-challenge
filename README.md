@@ -2,7 +2,7 @@
 
 L'app dovrà essere una Single Page Application sviluppata in React.js.
 
-Per il controllo di revisione andrà utilizzato git e un pattern a scelta tra git-flow e github-flow (pull requests).
+Per il controllo di revisione andrà utilizzato git e un pattern a scelta tra git-flow o github-flow (pull requests).
 
 Il passaggio da una schermata all'altra dovrà essere gestito da un router html5 (no hashbang), dovrà inoltre essere possibile l'accesso alle rotte descritte anche ricaricando completamente la pagina.
 
@@ -10,10 +10,9 @@ Il frame che conterrà l'app dovrà avere un viewport simil-mobile, centrato ver
 
 Per la definizione dello stile potranno essere utilizzati:
 
-- classNames con l'ausilio di preprocessori css (less o sass), utilizzando pattern [ITCSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/) o OOCSS descrivendo le classi in [BEM notation](http://getbem.com/introduction/)
-- [aphrodite](https://github.com/Khan/aphrodite)
+- classNames e css modules, con l'eventuale ausilio di preprocessori css (less o sass)
+- [react-with-styles](https://github.com/airbnb/react-with-styles) + [aphrodite](https://github.com/Khan/aphrodite) interface
 - [styled-components](https://www.styled-components.com/)
-- inline style objects
 
 Si lascia allo sviluppatore la massima libertà nella disposizione e personalizzazione grafica dei componenti nel caso in cui nessun vincolo sia stato specificato.
 
@@ -21,7 +20,7 @@ Il client dovrà collegarsi a [queste API](https://chat-server-challenge.herokua
 
 Dovrà essere possibile fare il submit delle credenziali anche premendo il tasto invio.
 
-L'autenticazione restituirà nella risposta un cookie di sessione che andrà passato in tutte le richieste successive per identificare la sessione.
+L'autenticazione restituirà nella risposta un cookie di sessione che verrà passato in tutte le richieste successive per identificare la sessione.
 
 Le [API](https://chat-server-challenge.herokuapp.com/) messe a disposizione permettono l'accesso di più utenti da client diversi per effettuare le prove di comunicazione, di seguito le credenziali:
 
