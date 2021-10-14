@@ -6,11 +6,11 @@ Si lascia allo sviluppatore la massima libertà nella disposizione e personalizz
 
 ## Requisiti funzionali
 
-L'app dovrà essere una Single Page Application.
+L'app dovrà essere una Single Page Application sviluppata in React.js o Next.js.
 
 Il passaggio da una schermata all'altra dovrà essere gestito da un router html5 (no hashbang).
 
-Lo stile della scheramata di autenticazione dovrà essere totalmente autoprodotto, per il resto del layout, è permesso l'uso di [Material UI](https://mui.com/).
+Lo stile della scheramata di autenticazione dovrà essere totalmente autoprodotto, per il resto del layout è permesso l'uso di [Material UI](https://mui.com/).
 
 L'app dovrà collegarsi a [queste API](https://chat-server-challenge.herokuapp.com/) seguendo le specifiche descritte nella homepage del servizio e nel [README](https://github.com/bemindinteractive/chat-server-challenge/blob/main/README.md#chat-server-challenge) del repository.
 
@@ -25,13 +25,13 @@ Base: fetch periodico dei messaggi
 E' possibile utilizzare un socket disponibile sulla stessa porta del server http delle [API](https://chat-server-challenge.herokuapp.com/) per sapere quando sono disponibili nuovi messaggi.
 La homepage del servizio non contiene informazioni riguardo il socket, i dettagli sono disponibili su [github](https://github.com/bemindinteractive/chat-server-challenge). Il socket non fornirà i messaggi ma solo un messaggio che avvisa che ci sono nuovi messaggi, per ottenerli andrà comunque lanciato un fetch.
 
-### Bonus 2 (se si sceglie di usare React)
+### Bonus 2
 
-gestione centralizzata dello stato dell'applicazione utilizzando [Redux](https://redux.js.org/).
+Gestione centralizzata dello stato dell'applicazione utilizzando [Redux](https://redux.js.org/).
 
-### Bonus 3 (se si sceglie di usare React + Redux)
+### Bonus 3 (se si sceglie di usare Redux)
 
-persistenza dello store di redux su local storage o session storage, totale o parziale (perlomeno i dati restituiti dal servizio di autenticazione, per evitare di tornare alla vista di autenticazione ad ogni refresh della pagina).
+Persistenza dello store di redux su local storage o session storage, totale o parziale (perlomeno i dati restituiti dal servizio di autenticazione, per evitare di tornare alla vista di autenticazione ad ogni refresh della pagina).
 
 Il progetto potrà essere inizializzato a piacere o tramite uno scaffolder. Dopo l'inizializzazione, comunicare l'URL del repository al revisore.
 
