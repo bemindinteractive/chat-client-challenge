@@ -4,7 +4,7 @@ L'app dovrà essere una Single Page Application sviluppata in React.js.
 
 Per il controllo di revisione andrà utilizzato git e un pattern a scelta tra git-flow o github-flow (pull requests).
 
-Il passaggio da una schermata all'altra dovrà essere gestito da un router html5 (no hashbang), dovrà inoltre essere possibile l'accesso alle rotte descritte anche ricaricando completamente la pagina.
+Il passaggio da una schermata all'altra dovrà essere gestito da un router html5 (no hashbang).
 
 Il frame che conterrà l'app dovrà avere un viewport simil-mobile, centrato verticalmente e orizzontalmente nella pagina che lo ospita.
 
@@ -30,9 +30,14 @@ Le [API](https://chat-server-challenge.herokuapp.com/) messe a disposizione perm
 | caio      | caio.secret      |
 | sempronio | sempronio.secret |
 
-Nella vista Dettaglio contatto andrà implementato uno script di aggiornamento periodico dello storico dei messaggi.
+Nella viste "Dettaglio Contatto" e "Lista Contatti" andrà impostato un listener sui nuovi messaggi ricevuti.
+E' possibile utilizzare un socket disponibile sulla stessa porta del server http delle [API](https://chat-server-challenge.herokuapp.com/) [più dettagli su github](https://github.com/bemindinteractive/chat-server-challenge).
+
+In alternativa va bene anche un fetch a intervalli regolari.
 
 Sarebbe molto gradita una gestione centralizzata dello stato dell'applicazione utilizzando [Redux](https://redux.js.org/).
+
+Bonus: persistenza totale o parziale dello store di redux su local storage o session storage (perlomeno i dati restituiti dal servizio di autenticazione, per evitare di essere buttati fuori ad ogni refresh della pagina).
 
 Potrà essere utilizzato un fork di questo repository come base di sviluppo oppure uno personale inizializzato a piacere o da uno scaffolder.
 
