@@ -1,6 +1,6 @@
 # Esercizio: client web di messaggistica minimale
 
-Per il controllo di revisione andrà utilizzato git e un pattern a scelta tra git-flow o github-flow (pull requests).
+Per il controllo di revisione andrà utilizzato git seguendo il pattern "github-flow" (nuova pull request per ogni macro feature o bug fix).
 
 Si lascia allo sviluppatore la massima libertà nella disposizione e personalizzazione grafica dei componenti nel caso in cui nessun vincolo sia stato specificato.
 
