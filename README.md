@@ -10,7 +10,7 @@ L'app dovrà essere una Single Page Application sviluppata in React.js o Next.js
 
 Il passaggio da una schermata all'altra dovrà essere gestito da un router html5 (no hashbang).
 
-Lo stile della scheramata di autenticazione dovrà essere totalmente autoprodotto, per il resto del layout è permesso l'uso di [Material UI](https://mui.com/).
+E' permesso l'uso di [Material UI](https://mui.com/), tutto quello che non è presente nella libreria andrà personalizzato a mano.
 
 L'app dovrà collegarsi a [queste API](https://chat-server-challenge.herokuapp.com/) seguendo le specifiche descritte nella homepage del servizio e nel [README](https://github.com/bemindinteractive/chat-server-challenge/blob/main/README.md#chat-server-challenge) del repository.
 
