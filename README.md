@@ -19,6 +19,10 @@ Dovrà essere possibile fare il submit delle credenziali, della query di ricerca
 
 Nella viste "Lista Contatti" e "Dettaglio Contatto" andrà impostata una politica di aggiornamento del contatore dei messaggi e dei messaggi per simulare l'ascolto in tempo reale.
 
+Nella vista "Dettaglio Contatto" all'invio di un messaggio, va svuotato l'ìnput di immissione del messaggio.
+
+Nella vista "Dettaglio Contatto" alla ricezione di qualunque nuovo messaggio, va fatto scrollare il contenitore dei messaggi fino a raggiungere l'ultimo messaggio.
+
 ### Bonus 1
 
 E' possibile utilizzare un socket disponibile sulla stessa porta del server http delle [API](https://chat-server-challenge.herokuapp.com/) per sapere davvero in tempo reale quando sono disponibili nuovi messaggi.
