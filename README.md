@@ -22,7 +22,7 @@ Nella viste "Lista Contatti" e "Dettaglio Contatto" andrà impostata una politic
 ### Bonus 1
 
 E' possibile utilizzare un socket disponibile sulla stessa porta del server http delle [API](https://chat-server-challenge.herokuapp.com/) per sapere davvero in tempo reale quando sono disponibili nuovi messaggi.
-La homepage del servizio non contiene informazioni riguardo il socket, i dettagli sono disponibili su [github](https://github.com/bemindinteractive/chat-server-challenge). Il socket non fornirà i messaggi ma emetterà un evento che avvisa che sono disponibili nuovi messaggi, per ottenerli andrà comunque lanciato un fetch sulle [API](https://chat-server-challenge.herokuapp.com/) REST.
+La homepage del servizio non contiene informazioni riguardo il socket, i dettagli sono disponibili su [github](https://github.com/bemindinteractive/chat-server-challenge). Il socket non fornirà direttamente i messaggi ma emetterà un evento che avvisa che sono disponibili nuovi messaggi, per ottenerli andrà comunque lanciato un fetch sulle [API](https://chat-server-challenge.herokuapp.com/) REST.
 
 ### Bonus 2
 
