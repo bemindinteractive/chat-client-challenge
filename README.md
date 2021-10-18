@@ -16,14 +16,12 @@ L'app dovrà collegarsi a [queste API](https://chat-server-challenge.herokuapp.c
 
 Dovrà essere possibile fare il submit delle credenziali e dei messaggi anche premendo il tasto invio oltre che premendo il bottone.
 
-Nella viste "Dettaglio Contatto" e "Lista Contatti" andrà impostato un listener sui nuovi messaggi ricevuti.
-
-Base: fetch periodico dei messaggi
+Nella viste "Lista Contatti" e "Dettaglio Contatto" andrà impostata una politica di aggiornamento del contatore dei messaggi e dei messaggi per simulare l'ascolto in tempo reale.
 
 ### Bonus 1
 
-E' possibile utilizzare un socket disponibile sulla stessa porta del server http delle [API](https://chat-server-challenge.herokuapp.com/) per sapere quando sono disponibili nuovi messaggi.
-La homepage del servizio non contiene informazioni riguardo il socket, i dettagli sono disponibili su [github](https://github.com/bemindinteractive/chat-server-challenge). Il socket non fornirà i messaggi ma solo un messaggio che avvisa che ci sono nuovi messaggi, per ottenerli andrà comunque lanciato un fetch.
+E' possibile utilizzare un socket disponibile sulla stessa porta del server http delle [API](https://chat-server-challenge.herokuapp.com/) per sapere davvero in tempo reale quando sono disponibili nuovi messaggi.
+La homepage del servizio non contiene informazioni riguardo il socket, i dettagli sono disponibili su [github](https://github.com/bemindinteractive/chat-server-challenge). Il socket non fornirà i messaggi ma emetterà un evento che avvisa che sono disponibili nuovi messaggi, per ottenerli andrà comunque lanciato un fetch sulle [API](https://chat-server-challenge.herokuapp.com/) REST.
 
 ### Bonus 2
 
