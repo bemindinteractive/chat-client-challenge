@@ -26,11 +26,11 @@ La homepage del servizio non contiene informazioni riguardo il socket, i dettagl
 
 ### Bonus 2
 
-Gestione centralizzata dello stato dell'applicazione utilizzando [Redux](https://redux.js.org/).
+Gestione centralizzata dello stato dell'applicazione.
 
-### Bonus 3 (se si sceglie di usare Redux)
+### Bonus 3 (se si sceglie di usare una libreria per la gestione centralizzata dello stato)
 
-Persistenza dello store di redux su local storage o session storage, totale o parziale (perlomeno i dati restituiti dal servizio di autenticazione, per evitare di tornare alla vista di autenticazione ad ogni refresh della pagina).
+Persistenza dello stato dell'applicaizone (o almeno del frammento che riguarda i dati restituiti dal servizio di autenticazione) su local storage o session storage, per evitare di tornare alla vista di autenticazione ad ogni refresh della pagina.
 
 Il progetto potrà essere inizializzato a piacere o tramite uno scaffolder. Dopo l'inizializzazione, comunicare l'URL del repository al revisore.
 
