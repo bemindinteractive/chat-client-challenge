@@ -67,8 +67,9 @@ Il frame che conterrà l'app dovrà avere un viewport simil-mobile, centrato ver
 ```
 
 <a name="wireframes">
-## Wireframes
 </a>
+
+## Wireframes
 
 
 ![alt text](./docs/images/login.png "Autenticazione")
