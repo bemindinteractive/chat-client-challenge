@@ -6,15 +6,16 @@ Si lascia allo sviluppatore la massima libertà nella disposizione e personalizz
 
 ## Requisiti funzionali
 
-L'app dovrà essere una Single Page Application sviluppata in React.js o Next.js.
+L'app dovrà essere una Single Page Application.
 
 Il passaggio da una schermata all'altra dovrà essere gestito da un router html5 (no hashbang).
 
-E' permesso l'uso di [Material UI](https://mui.com/), tutto quello che non è presente nella libreria andrà personalizzato a mano.
+E' permesso l'uso di librerie esterne per decorare i componenti (es: nella soluzione prodotta per creare i [wireframes](#wireframes) è stata usata [Material UI](https://mui.com/)).
+Tutto quello che non è possibile decorare con le librerie andrà fatto a mano.
 
-L'app dovrà collegarsi a [queste API](https://chat-server-challenge.herokuapp.com/) seguendo le specifiche descritte nella homepage del servizio e nel [README](https://github.com/bemindinteractive/chat-server-challenge/blob/main/README.md#chat-server-challenge) del repository.
+L'app dovrà collegarsi a [queste API](https://chat-server-challenge.herokuapp.com/) seguendo le specifiche descritte nella [homepage](https://chat-server-challenge.herokuapp.com/) del servizio e nel [README](https://github.com/bemindinteractive/chat-server-challenge/blob/main/README.md#chat-server-challenge) del repository.
 
-Dovrà essere possibile fare il submit delle credenziali e dei messaggi anche premendo il tasto invio oltre che premendo il bottone.
+Dovrà essere possibile fare il submit delle credenziali, della query di ricerca contatti e dei messaggi anche premendo il tasto invio oltre che premendo il bottone.
 
 Nella viste "Lista Contatti" e "Dettaglio Contatto" andrà impostata una politica di aggiornamento del contatore dei messaggi e dei messaggi per simulare l'ascolto in tempo reale.
 
@@ -65,7 +66,10 @@ Il frame che conterrà l'app dovrà avere un viewport simil-mobile, centrato ver
     └── Tasto invio messaggio
 ```
 
+<a name="wireframes">
 ## Wireframes
+</a>
+
 
 ![alt text](./docs/images/login.png "Autenticazione")
 ![alt text](./docs/images/login_loading.png "Autenticazione in corso")
