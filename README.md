@@ -28,7 +28,7 @@ La homepage del servizio non contiene informazioni riguardo il socket, i dettagl
 
 Gestione centralizzata dello stato dell'applicazione.
 
-### Bonus 3 (se si sceglie di usare una libreria per la gestione centralizzata dello stato)
+### Bonus 3
 
 Persistenza dello stato dell'applicaizone (o almeno del frammento che riguarda i dati restituiti dal servizio di autenticazione) su local storage o session storage, per evitare di tornare alla vista di autenticazione ad ogni refresh della pagina.
 
