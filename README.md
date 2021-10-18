@@ -69,8 +69,9 @@ Il frame che conterrà l'app dovrà avere un viewport simil-mobile, centrato ver
 
 ## Wireframes
 
-![alt text](./docs/images/auth.png "Autenticazione")
-![alt text](./docs/images/auth_loading.png "Autenticazione in corso")
+![alt text](./docs/images/login.png "Autenticazione")
+![alt text](./docs/images/login_loading.png "Autenticazione in corso")
 ![alt text](./docs/images/profile.png "Profilo")
-![alt text](./docs/images/contact_list.png "Lista contatti")
-![alt text](./docs/images/contact_detail.png "Dettaglio contatto")
+![alt text](./docs/images/contacts.png "Lista contatti")
+![alt text](./docs/images/contacts_unread.png "Lista contatti con nuovi messaggi")
+![alt text](./docs/images/contact_history.png "Dettaglio contatto")
