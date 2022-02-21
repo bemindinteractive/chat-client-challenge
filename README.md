@@ -82,7 +82,7 @@ Functional requirements
 
 The app must be a Single Page Application.
 
-The passage from one screen to another must be managed by an html5 router (no hashbang).
+The transition from one screen to another must be managed by an html5 router (no hashbang).
 
 The use of external libraries is allowed to decorate the components (eg: in the solution produced to create the [wireframes] (# wireframes), [Material UI] (https://mui.com/) was used).
 Anything that cannot be decorated with that library must be done by hand.
@@ -99,8 +99,8 @@ In the "Contact Details" view, when any new message is received, the message con
 
 ### Bonus 1
 
-It is possible to use a socket available on the same port as the http server of the [API] (https://chat-server-challenge.herokuapp.com/) to really know in real time when new messages are available.
-The homepage of the service does not contain information about the socket, the details are available on [github] (https://github.com/bemindinteractive/chat-server-challenge). The socket will not provide the messages directly but will emit an event that warns that new messages are available, to obtain them a fetch on the [API] (https://chat-server-challenge.herokuapp.com/) REST will still have to be launched.
+It is possible to use a socket available on the same port of the http server of the [API] (https://chat-server-challenge.herokuapp.com/) to really know in real time when new messages are available.
+The homepage of the service does not contain information about the socket, the details are available on [github] (https://github.com/bemindinteractive/chat-server-challenge). The socket will not provide the messages directly but will emit an event that warns that new messages are available, to obtain them a fetch on the REST [API] (https://chat-server-challenge.herokuapp.com/) will still have to be launched.
 
 ### Bonus 2
 
