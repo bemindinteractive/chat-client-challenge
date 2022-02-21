@@ -1,4 +1,4 @@
-# Esercizio: client web di messaggistica minimale
+# (IT) Esercizio: client web di messaggistica minimale
 
 Per il controllo di revisione andrà utilizzato git seguendo il pattern "github-flow" (nuova pull request per ogni macro feature o bug fix).
 
@@ -42,32 +42,78 @@ Il progetto potrà essere inizializzato a piacere o tramite uno scaffolder. Dopo
 
 Il frame che conterrà l'app dovrà avere un viewport simil-mobile, centrato verticalmente e orizzontalmente nella pagina che lo ospita.
 
+# (EN) Exercise: minimal messaging web client
+
+The "github-flow" pattern (new pull request for each macro feature or bug fix) has to be used in version control.
+
+The developer has the utmost freedom in arranging and customizing the graphic components when no constraint has been specified.
+Functional requirements
+
+## Functional requirements
+
+The app must be a Single Page Application.
+
+The passage from one screen to another must be managed by an html5 router (no hashbang).
+
+The use of external libraries is allowed to decorate the components (eg: in the solution produced to create the [wireframes] (# wireframes), [Material UI] (https://mui.com/) was used).
+Anything that cannot be decorated with that library must be done by hand.
+
+The app must connect to [these APIs] (https://chat-server-challenge.herokuapp.com/) following the specifications described in the [homepage] (https://chat-server-challenge.herokuapp.com/) of the service and in the [README] (https://github.com/bemindinteractive/chat-server-challenge/blob/main/README.md#chat-server-challenge) of the repository.
+
+It must be possible to submit the credentials, the contact search query and messages also by pressing the enter key as well as by pressing the button.
+
+In the "Contact List" and "Contact Details" views, a policy of updating the message counter and messages must be set to simulate listening in real time.
+
+In the "Contact Detail" view when sending a message, the message entry input must be emptied.
+
+In the "Contact Details" view, when any new message is received, the message container must be scrolled until the last message is reached.
+
+### Bonus 1
+
+It is possible to use a socket available on the same port as the http server of the [API] (https://chat-server-challenge.herokuapp.com/) to really know in real time when new messages are available.
+The homepage of the service does not contain information about the socket, the details are available on [github] (https://github.com/bemindinteractive/chat-server-challenge). The socket will not provide the messages directly but will emit an event that warns that new messages are available, to obtain them a fetch on the [API] (https://chat-server-challenge.herokuapp.com/) REST will still have to be launched.
+
+### Bonus 2
+
+Centralized management of application status.
+
+### Bonus 3
+
+Persistence of the state of the application (or at least of the fragment concerning the data returned by the authentication service) on local storage or session storage, to avoid returning to the authentication view at each refresh of the page.
+
+The project can be initialised at will or via a scaffolder. After initialization, communicate the repository URL to the reviewer.
+
+## Layout Structure
+
+The frame that will contain the app must have a mobile-like viewport, centered vertically and horizontally on the page that hosts it. 
+
+
 ```
 .
-├── Autenticazione
+├── Authentication
 |   ├── Username
 |   ├── Password
-|   └── Tasto submit
+|   └── Submit button
 ├── Dashboard
 |   ├── Header
-|   |   └── Logo centrato
+|   |   └── Centered logo
 |   └── Tabs
-|       ├── Lista contatti
-|       |   ├── Avatar contatto
-|       |   ├── Nome contatto
-|       |   └── Numero di notifiche contatto
-|       └── Profilo utente
-|           ├── Immagine profilo
+|       ├── Contacts list
+|       |   ├── Contact's avatar
+|       |   ├── Contact's name
+|       |   └── Contact's New messages count
+|       └── User profile
+|           ├── User profile image
 |           ├── Nickname
-|           ├── Nome e cognome
-|           └── Indirizzo email
-└── Dettaglio contatto
+|           ├── Name and surname
+|           └── Email address
+└── Contact detail
     ├── Navbar
-    |   ├── Tasto per tornare alla dashboard a sx
-    |   └── Nome destinatario
-    ├── Lista messaggi
-    ├── Input invio messaggio
-    └── Tasto invio messaggio
+    |   ├── Back to dasbhoard button (on top left corner)
+    |   └── Recipient's name
+    ├── Message's list
+    ├── Message's input
+    └── Message's submit button
 ```
 
 <a name="wireframes">
@@ -76,9 +122,9 @@ Il frame che conterrà l'app dovrà avere un viewport simil-mobile, centrato ver
 ## Wireframes
 
 
-![alt text](./docs/images/login.png "Autenticazione")
-![alt text](./docs/images/login_loading.png "Autenticazione in corso")
-![alt text](./docs/images/contacts.png "Lista contatti")
-![alt text](./docs/images/contacts_unread.png "Lista contatti con nuovi messaggi")
-![alt text](./docs/images/contact_history.png "Dettaglio contatto")
-![alt text](./docs/images/profile.png "Profilo")
+![alt text](./docs/images/login.png "Authentication")
+![alt text](./docs/images/login_loading.png "Authentication loading")
+![alt text](./docs/images/contacts.png "Contact's list")
+![alt text](./docs/images/contacts_unread.png "Contact's list with new messages")
+![alt text](./docs/images/contact_history.png "Contact's detail")
+![alt text](./docs/images/profile.png "Profile")
