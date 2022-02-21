@@ -42,6 +42,35 @@ Il progetto potrà essere inizializzato a piacere o tramite uno scaffolder. Dopo
 
 Il frame che conterrà l'app dovrà avere un viewport simil-mobile, centrato verticalmente e orizzontalmente nella pagina che lo ospita.
 
+```
+.
+├── Autenticazione
+|   ├── Username
+|   ├── Password
+|   └── Tasto submit
+├── Dashboard
+|   ├── Header
+|   |   └── Logo centrato
+|   └── Tabs
+|       ├── Lista contatti
+|       |   ├── Avatar contatto
+|       |   ├── Nome contatto
+|       |   └── Numero di notifiche contatto
+|       └── Profilo utente
+|           ├── Immagine profilo
+|           ├── Nickname
+|           ├── Nome e cognome
+|           └── Indirizzo email
+└── Dettaglio contatto
+    ├── Navbar
+    |   ├── Tasto per tornare alla dashboard a sx
+    |   └── Nome destinatario
+    ├── Lista messaggi
+    ├── Input invio messaggio
+    └── Tasto invio messaggio
+```
+
+
 # (EN) Exercise: minimal messaging web client
 
 The "github-flow" pattern (new pull request for each macro feature or bug fix) has to be used in version control.
